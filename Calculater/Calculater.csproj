@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculater_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculater_3.Designer.cs">
+      <DependentUpon>Calculater_3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Calculater_Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Calculater_3.resx">
+      <DependentUpon>Calculater_3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Calculater_Form2.resx">
       <DependentUpon>Calculater_Form2.cs</DependentUpon>
     </EmbeddedResource>
